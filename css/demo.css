@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h4 {
+  font-weight: normal;
+}
+
+#persons {
+      position: relative;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    height: 20%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+
+#persons .swiper-container {
+    padding-bottom: 45px;
+    width: 90%;
+    margin: auto;
+}
+
+#persons .swiper-slide { 
+    /* 540 340 */
+  width: 150px;
+  height: 100px;
+  overflow: hidden;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+#persons .swiper-slide .text {
+  position: absolute;
+  /*left: 15%;*/
+  /*top: 7%;*/
+  /*width: 90%;*/
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+#persons .swiper-slide img{
+    width: 100%;
+    margin: auto;
+}
+#persons .swiper-slide .text img {
+  float: left;
+  width: auto;
+  height: 100px;
+  margin-right: 15px;
+  border: 2px solid #ededed;
+}
+
+#persons .swiper-slide h2 {
+  float: left;
+  padding-top: 0;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#persons .swiper-slide h4 {
+  float: left;
+  margin: 0;
+  width: 60%;
+  font-size: 16px;
+}
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+    z-index: 9;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    transition: 300ms;
+    transform: scale(0.8);
+    }
+  .swiper-slide-active,.swiper-slide-duplicate-active{
+      transform: scale(1) !important;
+      z-index: 10 !important;
+  }
+.swiper-container-android .swiper-slide, .swiper-wrapper{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+}
+#persons .swiper-pagination {
+  width: 100%;
+    bottom: 20px;
+}
+
+#persons .swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 3px;
+    border: 1px solid #fff;
+    background-color: #d5d5d5;
+    width: 3px;
+    height: 3px;
+    opacity: 1;
+}
+
+#persons .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  border: 1px solid #00aadc;
+  background-color: #fff;
+}
+
+
+#persons .swiper-button-box{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    height: 20px;
+}
+#persons .swiper-button-box .btn{
+    width: 27px;
+    height: 15px;
+}
+.swiper-button-next, .swiper-button-prev{
+    background-size: 9px 15px;
+}
+#persons .swiper-button-prev {
+    top: initial;
+    left: 20%;
+    bottom: 8px;
+}
+
+#persons .swiper-button-next {
+    right: 20%;
+    top: initial;
+    bottom: 8px;
+}
+
+
+
