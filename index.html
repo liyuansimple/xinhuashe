@@ -3,16 +3,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>HTML5制作3D卡片组合不同效果动画特效- --思鹏代码库</title>
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="libs/swiper/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/demo.css">
 </head>
 <body>
   <!-- 加载动画 start -->
   <div id="loadPage" class="loadPage">
-    <div class="advertisement">
-      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591377099858&di=2b7782e4ec0225b24f2e6687b2368af4&imgtype=0&src=http%3A%2F%2Fa3.att.hudong.com%2F14%2F75%2F01300000164186121366756803686.jpg" alt="">
-    </div>
+    <div class="advertisement"></div>
 
     <div class="progress">
       <div class="progress-bar" id="progress-bar" role="progressbar">
@@ -61,9 +59,8 @@
     <!-- 切换 end -->
   </div>
 
-
   <!-- 详情 start -->
-  <div class="detail-layer">
+  <div class="detail-layer animated">
     <div class="detail-box">
       <div class="detail-img">
         <img src="http://switchimg.theszt.com/news%20pic%402x.png" alt="">
@@ -75,14 +72,14 @@
     </div>
   </div>
   <!-- 详情 end -->
-  <script src="http://www.sipeng.net/ParentPage/CSScontent/effectspage/html5_card/js/three.min.js"></script>
-  <script src="http://www.sipeng.net/ParentPage/CSScontent/effectspage/html5_card/js/tween.min.js"></script>
-  <script src="http://www.sipeng.net/ParentPage/CSScontent/effectspage/html5_card/js/TrackballControls.js"></script>
-  <script src="http://www.sipeng.net/ParentPage/CSScontent/effectspage/html5_card/js/CSS3DRenderer.js"></script>
+  <script src="libs/three/three.min.js"></script>
+  <script src="libs/three/tween.min.js"></script>
+  <script src="libs/three/TrackballControls.js"></script>
+  <script src="libs/three/CSS3DRenderer.js"></script>
 
   <script src="libs/jquery-1.11.2.min.js"></script>
   <script src="libs/hammer.min.js"></script>
-  <script src="libs/swiper.min.js"></script>
+  <script src="libs/swiper/swiper.min.js"></script>
   <script src="js/demo.js"></script>
 </body>
 </html>
